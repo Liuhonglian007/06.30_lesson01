@@ -1,0 +1,10 @@
+    2.1 what do you want to acquire in this course？
+        enhancing my programming and modeling capabilities,aquiring the ability to solve complex AI problems,becoming an expert in nlp domain
+    2.2. what problems do you want to solve？
+        how to use models to solve practical problems and how to optimize my models 
+    2.3. what’s the advantages you have to finish you goal?
+	certain programming foundation and learning ability,oppotunities for practice in work
+    2.4. what’s the disadvantages you need to overcome to finish you goal?
+	limited time due to busy work 
+    2.5. How will you plan to study in this course period?
+	make good use of fragmentary time, finish homework with good quality,think more and ask more questions
