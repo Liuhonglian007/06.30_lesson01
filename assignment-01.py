@@ -112,12 +112,10 @@ words_count_2 = Counter(token_2_gram)
 
 
 def prob_2(word1, word2):
-    # if word1 + word2 in words_count_2:
-    #   return words_count_2[word1+word2] / len(token_2_gram)
-    # else:
-    #   return 1 / len(token_2_gram)
-    return (words_count_2[word1+word2]+1)/(len(token)+words_count(word1))
-
+    if word1 + word2 in words_count_2:
+    	return words_count_2[word1 + word2] / words_count[word1]
+    else:
+        return (words_count_2[word1 + word2] + 1) / (len(token) + words_count[word1])
 
 # *******************************获取优质语言*******************************
 def get_probability(sentence):
