@@ -95,7 +95,7 @@ def cut(string):
 
 token = []
 
-for i, line in enumerate((open('/Users/honglian.lhl/06.30_lesson01/movie_comments_clean.csv'))):
+for i, line in enumerate((open('~/06.30_lesson01/movie_comments_clean.csv'))):
     if i % 100 == 0:
         print(i)
     if i > 100000:
@@ -112,10 +112,11 @@ words_count_2 = Counter(token_2_gram)
 
 
 def prob_2(word1, word2):
-    if word1 + word2 in words_count_2:
-        return words_count_2[word1+word2] / len(token_2_gram)
-    else:
-        return 1 / len(token_2_gram)
+    # if word1 + word2 in words_count_2:
+    #   return words_count_2[word1+word2] / len(token_2_gram)
+    # else:
+    #   return 1 / len(token_2_gram)
+    return (words_count_2[word1+word2]+1)/(len(token)+words_count(word1))
 
 
 # *******************************获取优质语言*******************************
